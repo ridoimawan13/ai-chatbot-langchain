@@ -1,0 +1,27 @@
+runcoach-ai/
+│
+├── README.md
+├── .env.example
+│
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   ├── node_modules/   (JANGAN di-upload)
+│
+├── frontend/
+│   ├── package.json
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── node_modules/   (JANGAN di-upload)
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       └── index.css
+│
+├── Dockerfile.backend
+├── Dockerfile.frontend
+├── docker-compose.yml
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
